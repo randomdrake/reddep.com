@@ -2,7 +2,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 
 const values = [
   {
-    title: "Dignity",
+    title: "✊ Dignity",
     description:
       "Every engagement starts from respect for what you and your team already know. We\u2019re not here to replace your judgment\u2014we\u2019re here to sharpen it.",
     barColor: "bg-pride-red",
@@ -10,7 +10,7 @@ const values = [
     titleColor: "text-pride-red-text",
   },
   {
-    title: "Inclusion",
+    title: "🤝 Inclusion",
     description:
       "The AI industry has a representation problem. Who builds the tools determines who they serve. We work with and for organizations that take this seriously.",
     barColor: "bg-pride-orange",
@@ -18,7 +18,7 @@ const values = [
     titleColor: "text-pride-orange-text",
   },
   {
-    title: "Accessibility",
+    title: "♿ Accessibility",
     description:
       "Knowledge locked behind jargon isn\u2019t knowledge. We explain clearly, build accessibly, and design for the people who actually use the tools\u2014not just the people who buy them.",
     barColor: "bg-pride-green",
@@ -26,7 +26,7 @@ const values = [
     titleColor: "text-pride-green-text",
   },
   {
-    title: "Equity",
+    title: "⚖️ Equity",
     description:
       "AI doesn\u2019t distribute its benefits evenly. We prioritize work that widens access, and we\u2019re honest about where the technology concentrates power instead of distributing it.",
     barColor: "bg-pride-blue",
@@ -34,7 +34,7 @@ const values = [
     titleColor: "text-pride-blue-text",
   },
   {
-    title: "Agency",
+    title: "🚀 Agency",
     description:
       "We build our clients\u2019 capacity, not their reliance on us. If you need us forever, we\u2019ve failed. The goal is to leave you more capable than we found you.",
     barColor: "bg-pride-purple",
@@ -42,7 +42,7 @@ const values = [
     titleColor: "text-pride-purple-text",
   },
   {
-    title: "Honesty",
+    title: "💬 Honesty",
     description:
       "We tell you what the evidence supports, not what the hype cycle promises. If AI isn\u2019t the right tool for your problem, we\u2019ll say so\u2014even when that\u2019s not what you called to hear.",
     barColor: "bg-pride-trans-pink",
@@ -106,7 +106,7 @@ export function Values() {
               backgroundClip: "text",
             }}
           >
-            Liberation Through Technology
+            🔓 Liberation Through Technology
           </h3>
           <p className="mt-2 text-[0.95rem] leading-relaxed text-text-light">
             Tools should expand what someone can do alone, not what they can do

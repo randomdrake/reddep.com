@@ -26,7 +26,7 @@ export function CalEmbed({ calLink, name, email }: CalEmbedProps) {
           href={`https://cal.com/${calLink}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-pride-blue-text underline hover:text-pride-blue"
+          className="text-pride-orange-text underline hover:text-pride-orange"
         >
           Open scheduling page directly
         </a>

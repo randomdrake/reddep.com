@@ -25,11 +25,11 @@ export function MissionVision() {
         <article aria-labelledby="vision-heading">
           <h2
             id="vision-heading"
-            className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.15em] text-pride-blue-text"
+            className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.15em] text-pride-orange-text"
           >
             <span
               aria-hidden="true"
-              className="inline-block h-px w-8 bg-pride-blue"
+              className="inline-block h-px w-8 bg-pride-orange"
             />
             Vision
           </h2>

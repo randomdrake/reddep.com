@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 
 const services = [
   {
-    title: "AI Research",
+    title: "🔬 AI Research",
     description:
       "Narrative compression, cognitive architecture, and published work bridging theory and practice. Research that moves from insight to implementation.",
     gradient: "from-pride-red to-pride-orange",
@@ -11,7 +11,7 @@ const services = [
     imageAlt: "Sunlit forest path — a clear way forward",
   },
   {
-    title: "Architecture Advisory",
+    title: "🏗️ Architecture Advisory",
     description:
       "Technical evaluation, model selection, prompt engineering, and pipeline architecture. For teams that are shipping responsibly and need expert guidance on the hard decisions.",
     gradient: "from-pride-green to-pride-blue",
@@ -19,7 +19,7 @@ const services = [
     imageAlt: "Geometric architectural structure — systems and precision",
   },
   {
-    title: "Responsible AI Strategy",
+    title: "🧭 Responsible AI Strategy",
     description:
       "Prosthetic-vs-therapeutic framework, bias auditing, AI governance, and product strategy. Build AI that expands what people can do alone.",
     gradient: "from-pride-purple to-pride-trans-blue",

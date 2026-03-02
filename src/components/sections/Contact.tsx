@@ -8,7 +8,7 @@ export function Contact() {
           id="contact-heading"
           className="font-heading text-3xl font-bold text-text md:text-4xl"
         >
-          Get in Touch
+          Get in Touch 👋
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-text-light">
           Not sure which session is right? Have a question before booking?
@@ -17,9 +17,9 @@ export function Contact() {
         </p>
         <a
           href="mailto:david@reddep.com"
-          className="group mt-8 inline-block text-2xl font-bold text-pride-blue-text transition-colors hover:text-pride-blue md:text-3xl"
+          className="group mt-8 inline-block text-2xl font-bold text-pride-orange-text transition-colors hover:text-pride-orange md:text-3xl"
         >
-          <span className="border-b-3 border-pride-blue/20 pb-1 transition-colors group-hover:border-pride-blue/50">
+          <span className="border-b-3 border-pride-orange/20 pb-1 transition-colors group-hover:border-pride-orange/50">
             david@reddep.com
           </span>
         </a>
@@ -27,10 +27,23 @@ export function Contact() {
           All conversations are confidential. Need a formal NDA?{" "}
           <a
             href="mailto:david@reddep.com?subject=NDA%20Request"
-            className="font-semibold text-pride-blue-text transition-colors hover:text-pride-blue"
+            className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
           >
             We have one ready via DocuSign.
           </a>
+        </p>
+        <p className="mt-6 text-base text-text-light">
+          Want to follow David&rsquo;s thinking before reaching out?{" "}
+          <a
+            href="https://randomdrake.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
+          >
+            Subscribe to Narrative Compression
+          </a>{" "}
+          &mdash; free essays on AI, narrative, and reducing dependencies of
+          every kind.
         </p>
       </div>
     </SectionWrapper>

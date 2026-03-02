@@ -16,13 +16,29 @@ export function Footer() {
           <div className="mt-6">
             <TrustBadges />
           </div>
-          <nav className="mt-8 flex gap-6" aria-label="Footer">
+          <nav className="mt-8 flex flex-wrap gap-x-6 gap-y-2" aria-label="Footer">
             <Link
               href="/about"
               className="text-sm text-text-muted transition-colors hover:text-text"
             >
               About
             </Link>
+            <a
+              href="https://randomdrake.substack.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-text-muted transition-colors hover:text-text"
+            >
+              Newsletter
+            </a>
+            <a
+              href="https://www.amazon.com/Will-Not-Drink-You-Today/dp/B0FX66ZG6P/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-text-muted transition-colors hover:text-text"
+            >
+              Book
+            </a>
             <a
               href="#"
               className="text-sm text-text-muted transition-colors hover:text-text"
@@ -44,6 +60,9 @@ export function Footer() {
           </nav>
           <p className="mt-6 text-xs text-text-muted">
             &copy; {new Date().getFullYear()} RedDep. All rights reserved.
+          </p>
+          <p className="mt-1 text-xs text-text-muted">
+            Made with 🌲 in Oregon
           </p>
         </div>
       </div>

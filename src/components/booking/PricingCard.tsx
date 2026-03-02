@@ -11,7 +11,7 @@ export function PricingCard({ tier }: PricingCardProps) {
     <div
       className={`group relative flex flex-col overflow-hidden rounded-2xl bg-surface transition-all duration-200 hover:-translate-y-1 ${
         tier.popular
-          ? "shadow-lg ring-2 ring-pride-blue/20 hover:shadow-xl"
+          ? "shadow-lg ring-2 ring-pride-orange/20 hover:shadow-xl"
           : "shadow-sm hover:shadow-lg"
       }`}
     >
@@ -19,11 +19,11 @@ export function PricingCard({ tier }: PricingCardProps) {
       {tier.popular && (
         <div
           aria-hidden="true"
-          className="h-1 w-full bg-gradient-to-r from-pride-blue to-pride-purple"
+          className="h-1 w-full bg-gradient-to-r from-pride-orange to-pride-red"
         />
       )}
       {tier.popular && (
-        <span className="absolute top-5 right-4 z-10 rounded-full bg-pride-blue px-4 py-1 text-xs font-semibold text-white shadow-md">
+        <span className="absolute top-5 right-4 z-10 rounded-full bg-pride-orange px-4 py-1 text-xs font-bold text-text shadow-md">
           Most Popular
         </span>
       )}

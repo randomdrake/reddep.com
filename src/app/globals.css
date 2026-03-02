@@ -8,6 +8,7 @@
   --color-pride-green: #008026;
   --color-pride-blue: #004DFF;
   --color-pride-blue-dark: #0033AA;
+  --color-pride-orange-dark: #E07800;
   --color-pride-purple: #750787;
 
   /* Trans flag colors */
@@ -21,7 +22,7 @@
 
   /* WCAG AA text-safe variants */
   --color-pride-red-text: #C50303;
-  --color-pride-orange-text: #B86200;
+  --color-pride-orange-text: #CC6B00;
   --color-pride-yellow-text: #7A6600;
   --color-pride-green-text: #006B1F;
   --color-pride-blue-text: #003ACC;
@@ -77,7 +78,7 @@ a, button, [role="button"], summary, [tabindex]:not([tabindex="-1"]) {
 
 /* Focus indicators */
 :focus-visible {
-  outline: 3px solid var(--color-pride-blue);
+  outline: 3px solid var(--color-pride-orange);
   outline-offset: 2px;
 }
 

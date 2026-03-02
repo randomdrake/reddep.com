@@ -67,7 +67,15 @@ const jsonLd = {
     "@type": "Person",
     name: "David Drake",
     jobTitle: "AI Researcher & Consultant",
+    sameAs: [
+      "https://www.linkedin.com/in/randomdrake/",
+      "https://randomdrake.substack.com",
+    ],
   },
+  sameAs: [
+    "https://randomdrake.substack.com",
+    "https://www.linkedin.com/in/randomdrake/",
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Portland",

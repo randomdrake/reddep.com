@@ -64,7 +64,7 @@ export function TrustBadges() {
       {badges.map((badge) => {
         const content = (
           <>
-            <span className="text-pride-blue">{badge.icon}</span>
+            <span className="text-pride-orange-text">{badge.icon}</span>
             <span className="font-semibold text-text-light">{badge.label}</span>
             <span className="text-text-muted">{badge.sublabel}</span>
           </>

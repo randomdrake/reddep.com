@@ -5,7 +5,7 @@ import { CredentialChip } from "@/components/ui/CredentialChip";
 const credentials = [
   { label: "Background", value: "Former YC CTO" },
   { label: "Research", value: "Narrative Compression" },
-  { label: "Author", value: "Published, 2 Languages" },
+  { label: "Author", value: "Published, 3 Languages" },
   { label: "Location", value: "Portland, OR" },
 ];
 
@@ -26,7 +26,7 @@ export function LeaderProfile() {
             href="https://linkedin.com/in/randomdrake"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-pride-blue-text transition-colors hover:text-pride-blue"
+            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
           >
             <svg
               className="h-5 w-5"
@@ -48,10 +48,28 @@ export function LeaderProfile() {
             About David Drake
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-text-light">
-            David Drake is an AI researcher, former YC-backed CTO, and published
-            author whose work has appeared in two languages. His current
-            research focuses on narrative compression&mdash;how large language
-            models reshape the way stories are told and understood.
+            David Drake is an AI researcher, former YC-backed CTO, and author
+            of{" "}
+            <a
+              href="https://www.amazon.com/Will-Not-Drink-You-Today/dp/B0FX66ZG6P/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
+            >
+              <em>I Will Not Drink With You Today</em>
+            </a>
+            . His current research focuses on narrative compression&mdash;how
+            large language models reshape the way stories are told and
+            understood. He writes about it on{" "}
+            <a
+              href="https://randomdrake.substack.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
+            >
+              Narrative Compression
+            </a>
+            , his Substack.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-text-light">
             Before founding RedDep, David built and led engineering teams

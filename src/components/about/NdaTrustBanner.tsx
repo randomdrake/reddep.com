@@ -3,10 +3,10 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 export function NdaTrustBanner() {
   return (
     <SectionWrapper id="nda" labelId="nda-heading" bg="white">
-      <div className="mx-auto max-w-2xl rounded-2xl border border-pride-blue/10 bg-[#EFF6FF] p-8 shadow-xs">
+      <div className="mx-auto max-w-2xl rounded-2xl border border-pride-orange/10 bg-[#FFF7ED] p-8 shadow-xs">
         <div>
           <svg
-            className="h-10 w-10 text-pride-blue-text"
+            className="h-10 w-10 text-pride-orange-text"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -39,7 +39,7 @@ export function NdaTrustBanner() {
         </p>
         <a
           href="mailto:david@reddep.com?subject=NDA%20Request"
-          className="mt-5 inline-block rounded-lg border-2 border-pride-blue bg-white px-6 py-2.5 text-sm font-semibold text-pride-blue-text transition-all duration-150 hover:bg-pride-blue hover:text-white"
+          className="mt-5 inline-block rounded-lg border-2 border-pride-orange bg-white px-6 py-2.5 text-sm font-bold text-pride-orange-text transition-all duration-150 hover:bg-pride-orange hover:text-text"
         >
           Request an NDA &rarr;
         </a>

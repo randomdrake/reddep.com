@@ -3,6 +3,7 @@ import { MissionVision } from "@/components/sections/MissionVision";
 import { Services } from "@/components/sections/Services";
 import { Values } from "@/components/sections/Values";
 import { About } from "@/components/sections/About";
+import { Writing } from "@/components/sections/Writing";
 import { Booking } from "@/components/sections/Booking";
 import { Contact } from "@/components/sections/Contact";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Values />
       <About />
+      <Writing />
       <Booking />
       <Contact />
     </main>

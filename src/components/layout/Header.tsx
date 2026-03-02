@@ -43,7 +43,7 @@ export function Header() {
             href="/about"
             className={`text-sm font-semibold transition-colors hover:text-text ${
               pathname === "/about"
-                ? "text-text border-b-2 border-pride-blue"
+                ? "text-text border-b-2 border-pride-orange"
                 : "text-text-light"
             }`}
           >
@@ -51,7 +51,7 @@ export function Header() {
           </Link>
           <a
             href={bookingHref}
-            className="rounded-lg bg-pride-blue px-5 py-2.5 text-sm font-semibold text-white shadow-md transition-all duration-150 hover:shadow-lg hover:-translate-y-0.5 active:shadow-sm active:translate-y-0"
+            className="rounded-lg bg-pride-orange px-5 py-2.5 text-sm font-bold text-text shadow-md transition-all duration-150 hover:bg-pride-orange-dark hover:shadow-lg hover:-translate-y-0.5 active:shadow-sm active:translate-y-0"
           >
             Book a Session &rarr;
           </a>
@@ -118,7 +118,7 @@ export function Header() {
           </Link>
           <a
             href={bookingHref}
-            className="mt-2 block rounded-lg bg-pride-blue px-5 py-2.5 text-center text-sm font-semibold text-white"
+            className="mt-2 block rounded-lg bg-pride-orange px-5 py-2.5 text-center text-sm font-bold text-text"
             onClick={() => setMenuOpen(false)}
           >
             Book a Session &rarr;

@@ -5,7 +5,7 @@ export const TIERS: PriceTier[] = [
     id: "advisory",
     name: "Advisory",
     description:
-      "General AI guidance, strategy discussion, and initial assessment.",
+      "💡 General AI guidance, strategy discussion, and initial assessment.",
     price30: 250,
     price60: 500,
     image: "/images/advisory.jpg",
@@ -15,7 +15,7 @@ export const TIERS: PriceTier[] = [
     id: "technical",
     name: "Technical Deep Dive",
     description:
-      "Architecture review, prompt engineering, and code-level guidance.",
+      "⚙️ Architecture review, prompt engineering, and code-level guidance.",
     price30: 500,
     price60: 1000,
     popular: true,
@@ -26,7 +26,7 @@ export const TIERS: PriceTier[] = [
     id: "executive",
     name: "Executive Strategy",
     description:
-      "C-suite AI strategy, governance, competitive positioning, and prosthetic-vs-therapeutic framework.",
+      "🏛️ C-suite AI strategy, governance, competitive positioning, and prosthetic-vs-therapeutic framework.",
     price30: 1000,
     price60: 2000,
     image: "/images/executive.jpg",

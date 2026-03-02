@@ -9,7 +9,7 @@ export function Booking() {
         id="booking-heading"
         className="font-heading text-3xl font-bold text-text md:text-4xl"
       >
-        Book a Session
+        Book a Session 📅
       </h2>
       <p className="mt-3 max-w-2xl text-lg text-text-light">
         All sessions available as 30-minute or 1-hour formats. Remote, coffee,

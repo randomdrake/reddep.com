@@ -39,8 +39,8 @@ export function CheckoutButton({ tierId, duration, popular }: CheckoutButtonProp
       disabled={loading}
       className={`w-full rounded-lg px-6 py-3 text-sm font-semibold transition-colors disabled:opacity-50 ${
         popular
-          ? "bg-pride-blue text-white hover:bg-pride-blue-dark"
-          : "bg-white text-pride-blue-text shadow-sm ring-1 ring-pride-blue/20 hover:ring-pride-blue/40 hover:shadow-md"
+          ? "bg-pride-orange text-text font-bold hover:bg-pride-orange-dark"
+          : "bg-white text-pride-orange-text shadow-sm ring-1 ring-pride-orange/30 hover:ring-pride-orange/50 hover:shadow-md"
       }`}
     >
       {loading ? "Redirecting..." : "Book Now"}
