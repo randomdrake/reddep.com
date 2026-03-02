@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RedDep — Reducing Dependencies
+
+**Removing obstacles so people can move under their own power.**
+
+RedDep is David Drake's AI research and consulting practice. This repo contains the source code for [reddep.com](https://reddep.com) — a single-page marketing and booking site built with the Progress Pride flag as its design DNA.
+
+## What RedDep Does
+
+- **AI Research** — Narrative compression, cognitive architecture, bridging theory and practice
+- **Architecture Advisory** — Technical evaluation, model selection, prompt engineering, pipeline architecture
+- **Responsible AI Strategy** — Prosthetic-vs-therapeutic framework, bias auditing, AI governance
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) 16 with App Router
+- [Tailwind CSS](https://tailwindcss.com) 4.1
+- [React](https://react.dev) 19
+- [Stripe](https://stripe.com) for payments
+- [Cal.com](https://cal.com) for scheduling
+- Deployed on [Vercel](https://vercel.com)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
+cp .env.example .env.local  # fill in your keys
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Description |
+|---|---|
+| `STRIPE_SECRET_KEY` | Stripe secret key |
+| `STRIPE_WEBHOOK_SECRET` | Stripe webhook signing secret |
+| `NEXT_PUBLIC_SITE_URL` | Production URL (e.g. `https://reddep.com`) |
+| `NEXT_PUBLIC_CAL_USERNAME` | Cal.com username |
+| `NEXT_PUBLIC_CAL_SLUG_30` | Cal.com event slug for 30-min sessions |
+| `NEXT_PUBLIC_CAL_SLUG_60` | Cal.com event slug for 60-min sessions |
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+  app/             # Next.js pages and API routes
+  components/      # React components
+    about/         # About page components
+    booking/       # Stripe/Cal.com booking flow
+    brand/         # Wordmark, Pride gradient bar
+    layout/        # Header, Footer, SkipNav
+    sections/      # Home page sections
+    ui/            # Shared UI primitives
+  lib/             # Stripe client, constants
+  types/           # TypeScript type definitions
+public/            # Static assets, sitemap, robots.txt
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Accessibility
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Every component meets WCAG 2.1 Level AA. This includes proper color contrast, keyboard navigation, screen reader support, reduced motion respect, and semantic HTML throughout.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All rights reserved. Source is public for transparency, not for reuse.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## About David Drake
+
+AI researcher, former YC-backed CTO, published author (3 languages). Based in Portland, OR.
+
+Because everyone deserves a clear path.
