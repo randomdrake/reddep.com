@@ -20,9 +20,18 @@ export function PrivacyContent() {
               Our Approach
             </h2>
             <p className="mt-3">
-              RedDep does not use third-party analytics, tracking pixels, or
-              advertising tools. We do not collect behavioral data about how you
-              browse this site. Your visit here is your business, not ours.
+              RedDep does not use tracking pixels, advertising tools, or
+              cookie-based analytics. We use{" "}
+              <a
+                href="https://vercel.com/docs/analytics"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
+              >
+                Vercel Analytics
+              </a>
+              {" "}for privacy-friendly, cookieless page view metrics. No
+              personal data is collected and no individual visitors are tracked.
             </p>
           </section>
 

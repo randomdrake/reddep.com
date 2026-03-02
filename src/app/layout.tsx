@@ -4,6 +4,7 @@ import { SkipNav } from "@/components/layout/SkipNav";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PrideGradientBar } from "@/components/brand/PrideGradientBar";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
@@ -103,6 +104,7 @@ export default function RootLayout({
         <PrideGradientBar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
