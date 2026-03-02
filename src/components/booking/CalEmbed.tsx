@@ -20,7 +20,7 @@ export function CalEmbed({ calLink, name, email }: CalEmbedProps) {
         }}
         style={{ width: "100%", height: "100%", overflow: "auto" }}
       />
-      <p className="mt-4 text-center text-sm text-text-muted">
+      <p className="mt-4 text-sm text-text-muted">
         Having trouble with the scheduler?{" "}
         <a
           href={`https://cal.com/${calLink}`}

@@ -7,16 +7,16 @@ export function Footer() {
   return (
     <footer role="contentinfo">
       <PrideGradientBar />
-      <div className="bg-white px-6 py-10">
-        <div className="mx-auto max-w-6xl text-center">
-          <Wordmark showSubtitle={false} className="flex justify-center" />
+      <div className="bg-white px-6 py-12 md:py-16">
+        <div className="mx-auto max-w-6xl">
+          <Wordmark showSubtitle={false} />
           <p className="mt-2 text-sm text-text-muted">
             Because everyone deserves a clear path.
           </p>
-          <div className="mt-5">
+          <div className="mt-6">
             <TrustBadges />
           </div>
-          <nav className="mt-5 flex justify-center gap-6" aria-label="Footer">
+          <nav className="mt-8 flex gap-6" aria-label="Footer">
             <Link
               href="/about"
               className="text-sm text-text-muted transition-colors hover:text-text"

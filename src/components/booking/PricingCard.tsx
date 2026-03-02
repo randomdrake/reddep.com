@@ -15,8 +15,15 @@ export function PricingCard({ tier }: PricingCardProps) {
           : "shadow-sm hover:shadow-lg"
       }`}
     >
+      {/* Accent border on popular tier — per Refactoring UI "Add color with accent borders" */}
       {tier.popular && (
-        <span className="absolute top-4 right-4 z-10 rounded-full bg-pride-blue px-4 py-1 text-xs font-semibold text-white shadow-md">
+        <div
+          aria-hidden="true"
+          className="h-1 w-full bg-gradient-to-r from-pride-blue to-pride-purple"
+        />
+      )}
+      {tier.popular && (
+        <span className="absolute top-5 right-4 z-10 rounded-full bg-pride-blue px-4 py-1 text-xs font-semibold text-white shadow-md">
           Most Popular
         </span>
       )}
@@ -43,7 +50,7 @@ export function PricingCard({ tier }: PricingCardProps) {
         <div className="mt-6 grow">
           <DurationToggle tier={tier} />
         </div>
-        <p className="mt-4 text-center text-xs text-text-muted">
+        <p className="mt-4 text-xs text-text-muted">
           Remote &middot; Coffee &middot; Lunch
         </p>
       </div>

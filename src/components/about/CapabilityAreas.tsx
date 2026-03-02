@@ -54,14 +54,14 @@ const capabilities = [
 export function CapabilityAreas() {
   return (
     <SectionWrapper id="capabilities" labelId="capabilities-heading">
-      <div className="text-center">
+      <div>
         <h2
           id="capabilities-heading"
           className="font-heading text-3xl font-bold text-text md:text-4xl"
         >
           Capability Areas
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-lg text-text-light">
+        <p className="mt-4 max-w-2xl text-lg text-text-light">
           David leads every engagement, drawing on a deep network of
           specialists across these disciplines.
         </p>

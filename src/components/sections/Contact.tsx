@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 export function Contact() {
   return (
     <SectionWrapper id="contact" labelId="contact-heading" bg="white">
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-2xl">
         <h2
           id="contact-heading"
           className="font-heading text-3xl font-bold text-text md:text-4xl"
@@ -17,9 +17,9 @@ export function Contact() {
         </p>
         <a
           href="mailto:david@reddep.com"
-          className="group mt-6 inline-block text-xl font-semibold text-pride-blue-text transition-colors hover:text-pride-blue"
+          className="group mt-8 inline-block text-2xl font-bold text-pride-blue-text transition-colors hover:text-pride-blue md:text-3xl"
         >
-          <span className="border-b-2 border-pride-blue/0 transition-colors group-hover:border-pride-blue/40">
+          <span className="border-b-3 border-pride-blue/20 pb-1 transition-colors group-hover:border-pride-blue/50">
             david@reddep.com
           </span>
         </a>

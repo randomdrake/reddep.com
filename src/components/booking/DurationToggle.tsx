@@ -15,7 +15,7 @@ export function DurationToggle({ tier }: DurationToggleProps) {
   return (
     <div>
       {/* Toggle */}
-      <div className="flex rounded-lg bg-gray-100 p-1" role="radiogroup" aria-label="Session duration">
+      <div className="flex rounded-lg bg-bg p-1" role="radiogroup" aria-label="Session duration">
         <button
           role="radio"
           aria-checked={duration === 30}
@@ -43,7 +43,7 @@ export function DurationToggle({ tier }: DurationToggleProps) {
       </div>
 
       {/* Price */}
-      <div className="mt-4 text-center">
+      <div className="mt-4">
         <span className="text-3xl font-bold text-text">
           ${price.toLocaleString()}
         </span>

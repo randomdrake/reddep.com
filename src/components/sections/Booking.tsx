@@ -7,16 +7,16 @@ export function Booking() {
     <SectionWrapper id="booking" labelId="booking-heading">
       <h2
         id="booking-heading"
-        className="text-center font-heading text-3xl font-bold text-text md:text-4xl"
+        className="font-heading text-3xl font-bold text-text md:text-4xl"
       >
         Book a Session
       </h2>
-      <p className="mx-auto mt-3 max-w-2xl text-center text-text-muted">
+      <p className="mt-3 max-w-2xl text-lg text-text-light">
         All sessions available as 30-minute or 1-hour formats. Remote, coffee,
         or lunch.
       </p>
 
-      <div className="mt-12 grid gap-8 md:grid-cols-3">
+      <div className="mt-14 grid gap-8 md:grid-cols-3">
         {TIERS.map((tier) => (
           <PricingCard key={tier.id} tier={tier} />
         ))}

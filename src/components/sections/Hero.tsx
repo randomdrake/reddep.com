@@ -5,7 +5,7 @@ export function Hero() {
     <section
       id="hero"
       aria-labelledby="hero-heading"
-      className="relative overflow-hidden bg-surface px-6 py-24 text-center md:py-36 lg:py-44"
+      className="relative overflow-hidden bg-surface px-6 py-24 md:py-36 lg:py-44"
     >
       {/* Layered abstract gradient background */}
       <div

@@ -60,7 +60,7 @@ const badges = [
 
 export function TrustBadges() {
   return (
-    <div className="flex flex-wrap justify-center gap-3">
+    <div className="flex flex-wrap gap-3">
       {badges.map((badge) => {
         const content = (
           <>

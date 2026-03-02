@@ -3,8 +3,8 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 export function NdaTrustBanner() {
   return (
     <SectionWrapper id="nda" labelId="nda-heading" bg="white">
-      <div className="mx-auto max-w-2xl rounded-2xl border border-pride-blue/10 bg-[#EFF6FF] p-8 text-center shadow-xs">
-        <div className="flex justify-center">
+      <div className="mx-auto max-w-2xl rounded-2xl border border-pride-blue/10 bg-[#EFF6FF] p-8 shadow-xs">
+        <div>
           <svg
             className="h-10 w-10 text-pride-blue-text"
             viewBox="0 0 24 24"

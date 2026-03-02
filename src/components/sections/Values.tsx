@@ -54,19 +54,19 @@ const values = [
 export function Values() {
   return (
     <SectionWrapper id="values" labelId="values-heading">
-      <div className="text-center">
+      <div>
         <h2
           id="values-heading"
           className="font-heading text-3xl font-bold text-text md:text-4xl"
         >
           Our Values
         </h2>
-        <p className="mt-2 text-text-light">
+        <p className="mt-3 text-lg text-text-light">
           How we work. What we won&rsquo;t compromise. Why it matters.
         </p>
       </div>
 
-      <div className="mt-12 grid gap-5 md:grid-cols-2">
+      <div className="mt-14 grid gap-5 md:grid-cols-2">
         {values.map((value) => (
           <article
             key={value.title}

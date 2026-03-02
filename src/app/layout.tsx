@@ -38,12 +38,21 @@ export const metadata: Metadata = {
     siteName: "RedDep",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "RedDep — Reducing Dependencies",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "RedDep — AI Research & Consulting",
     description:
       "Independent AI research and responsible consulting by David Drake — former YC CTO, published author.",
+    images: ["/og-image.png"],
   },
 };
 

@@ -33,15 +33,15 @@ export function Services() {
     <SectionWrapper id="services" labelId="services-heading" bg="white">
       <h2
         id="services-heading"
-        className="text-center font-heading text-3xl font-bold text-text md:text-4xl"
+        className="font-heading text-3xl font-bold text-text md:text-4xl"
       >
         What We Do
       </h2>
-      <p className="mx-auto mt-3 max-w-2xl text-center text-text-muted">
+      <p className="mt-3 max-w-2xl text-lg text-text-light">
         Focused expertise where it counts.
       </p>
 
-      <div className="mt-12 grid gap-8 md:grid-cols-3">
+      <div className="mt-14 grid gap-8 md:grid-cols-3">
         {services.map((service) => (
           <div
             key={service.title}
@@ -66,7 +66,7 @@ export function Services() {
               <h3 className="font-heading text-xl font-bold text-text">
                 {service.title}
               </h3>
-              <p className="mt-3 leading-relaxed text-text">
+              <p className="mt-3 leading-relaxed text-text-light">
                 {service.description}
               </p>
             </div>
