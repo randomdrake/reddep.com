@@ -26,7 +26,7 @@ export function Wordmark({ className = "", showSubtitle = true }: WordmarkProps)
         ))}
       </span>
       {showSubtitle && (
-        <span className="ml-3 text-sm font-semibold uppercase tracking-[0.15em] text-text-muted">
+        <span className="ml-3 hidden text-sm font-semibold uppercase tracking-[0.15em] text-text-muted sm:inline">
           Reducing Dependencies
         </span>
       )}
