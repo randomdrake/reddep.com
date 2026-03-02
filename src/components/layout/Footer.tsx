@@ -31,32 +31,24 @@ export function Footer() {
             >
               Newsletter
             </a>
-            <a
-              href="https://www.amazon.com/Will-Not-Drink-You-Today/dp/B0FX66ZG6P/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-text-muted transition-colors hover:text-text"
-            >
-              Book
-            </a>
-            <a
-              href="#"
+            <Link
+              href="/privacy"
               className="text-sm text-text-muted transition-colors hover:text-text"
             >
               Privacy
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/terms"
               className="text-sm text-text-muted transition-colors hover:text-text"
             >
               Terms
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/accessibility"
               className="text-sm text-text-muted transition-colors hover:text-text"
             >
               Accessibility
-            </a>
+            </Link>
           </nav>
           <p className="mt-6 text-xs text-text-muted">
             &copy; {new Date().getFullYear()} RedDep. All rights reserved.
