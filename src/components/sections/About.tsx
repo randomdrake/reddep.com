@@ -6,7 +6,7 @@ import { CredentialChip } from "@/components/ui/CredentialChip";
 const credentials = [
   { label: "Background", value: "🎯 Former YC CTO" },
   { label: "Research", value: "🧠 Narrative Compression" },
-  { label: "Author", value: "📚 Published, 3 Languages" },
+  { label: "Author", value: "📚 Published Author" },
   { label: "Location", value: "📍 Portland, OR" },
 ];
 
