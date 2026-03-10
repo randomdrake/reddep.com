@@ -67,6 +67,6 @@ All rights reserved. Source is public for transparency, not for reuse.
 
 ## About David Drake
 
-AI researcher, former YC-backed CTO, published author (2 languages). Based in Portland, OR.
+AI researcher, former YC-backed CTO, and published author. Based in Portland, OR.
 
 Because everyone deserves a clear path.
