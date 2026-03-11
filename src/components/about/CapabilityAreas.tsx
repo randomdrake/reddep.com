@@ -20,7 +20,7 @@ const capabilities = [
   {
     title: "Product Strategy",
     description:
-      "AI product design, prosthetic-vs-therapeutic evaluation, roadmap development grounded in what the technology actually does.",
+      "AI product design, market fit evaluation, roadmap development grounded in what the technology actually does.",
     barColor: "bg-pride-green",
     bgColor: "bg-[#F0FDF4]",
     titleColor: "text-pride-green-text",

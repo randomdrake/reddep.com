@@ -21,7 +21,7 @@ const services = [
   {
     title: "🧭 Responsible AI Strategy",
     description:
-      "Prosthetic-vs-therapeutic framework, bias auditing, AI governance, and product strategy. Build AI that expands what people can do alone.",
+      "Bias auditing, AI governance, HIPAA and SOC 2 compliance strategy, and product roadmapping. Build AI that expands what people can do alone.",
     gradient: "from-pride-purple to-pride-trans-blue",
     image: "/images/executive.jpg",
     imageAlt: "Aerial view of mountain landscape — strategic perspective",

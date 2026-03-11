@@ -8,7 +8,7 @@ RedDep is David Drake's AI research and consulting practice. This repo contains 
 
 - **AI Research** — Narrative compression, cognitive architecture, bridging theory and practice
 - **Architecture Advisory** — Technical evaluation, model selection, prompt engineering, pipeline architecture
-- **Responsible AI Strategy** — Prosthetic-vs-therapeutic framework, bias auditing, AI governance
+- **Responsible AI Strategy** — Bias auditing, AI governance, compliance readiness
 
 ## Tech Stack
 
