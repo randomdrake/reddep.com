@@ -70,11 +70,11 @@ const jsonLd = {
     jobTitle: "AI Researcher & Consultant",
     sameAs: [
       "https://www.linkedin.com/in/randomdrake/",
-      "https://randomdrake.substack.com",
+      "https://randomdrake.medium.com",
     ],
   },
   sameAs: [
-    "https://randomdrake.substack.com",
+    "https://randomdrake.medium.com",
     "https://www.linkedin.com/in/randomdrake/",
   ],
   address: {

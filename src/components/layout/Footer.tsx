@@ -24,12 +24,12 @@ export function Footer() {
               About
             </Link>
             <a
-              href="https://randomdrake.substack.com"
+              href="https://randomdrake.medium.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-text-muted transition-colors hover:text-text"
             >
-              Newsletter
+              Blog
             </a>
             <Link
               href="/privacy"

@@ -62,14 +62,14 @@ export function LeaderProfile() {
             large language models reshape the way stories are told and
             understood. He writes about it on{" "}
             <a
-              href="https://randomdrake.substack.com"
+              href="https://randomdrake.medium.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
             >
-              Narrative Compression
+              Medium
             </a>
-            , his Substack.
+            .
           </p>
           <p className="mt-4 text-lg leading-relaxed text-text-light">
             Before founding RedDep, David built and led engineering teams

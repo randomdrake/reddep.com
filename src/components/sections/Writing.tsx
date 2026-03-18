@@ -49,9 +49,9 @@ export function Writing() {
             </span>
           </a>
 
-          {/* Substack */}
+          {/* Medium */}
           <a
-            href="https://randomdrake.substack.com"
+            href="https://randomdrake.medium.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group block rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-shadow hover:shadow-md"
@@ -65,17 +65,17 @@ export function Writing() {
               aria-hidden="true"
             />
             <p className="text-xs font-semibold uppercase tracking-wider text-text-muted">
-              ✉️ Newsletter
+              ✍️ Blog
             </p>
             <h3 className="mt-2 font-heading text-xl font-bold text-text group-hover:text-pride-orange-text">
-              Narrative Compression
+              Medium
             </h3>
             <p className="mt-3 text-base leading-relaxed text-text-light">
-              David&rsquo;s research in public. Free essays on AI, narrative,
-              neurodivergence, and the systems that shape how we think.
+              David&rsquo;s writing on AI, narrative, and the systems that
+              shape how we think.
             </p>
             <span className="mt-4 inline-block text-sm font-semibold text-pride-orange-text transition-colors group-hover:text-pride-orange">
-              Read on Substack &rarr;
+              Read on Medium &rarr;
             </span>
           </a>
         </div>

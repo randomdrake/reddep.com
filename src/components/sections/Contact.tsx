@@ -35,15 +35,15 @@ export function Contact() {
         <p className="mt-6 text-base text-text-light">
           Want to follow David&rsquo;s thinking before reaching out?{" "}
           <a
-            href="https://randomdrake.substack.com"
+            href="https://randomdrake.medium.com"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-pride-orange-text transition-colors hover:text-pride-orange"
           >
-            Subscribe to Narrative Compression
+            Read David&rsquo;s writing on Medium
           </a>{" "}
-          &mdash; free essays on AI, narrative, and reducing dependencies of
-          every kind.
+          &mdash; essays on AI, narrative, and reducing dependencies of every
+          kind.
         </p>
       </div>
     </SectionWrapper>
